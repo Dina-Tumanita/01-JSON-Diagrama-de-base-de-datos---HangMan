@@ -1,0 +1,46 @@
+@startuml Hangman
+
+Object Hangman
+Object Player
+Object Guesser
+Object Giver
+Object Hangedman
+Object SecretWord
+Object HiddenWord
+Object GuessingLetter
+Object GuessedLetters
+Object Turn
+Object EndGame
+Object GuessedWord
+Object ManHanged
+
+Hangman *-down-> Player
+Hangman *-down-> Hangedman
+Hangman *-down-> SecretWord
+Hangman *-down-> HiddenWord
+Hangman *-down-> Turn
+Hangman *-down-> GuessingLetter
+Hangman *-down-> GuessedLetters
+
+Turn -down-> Player
+
+Hangedman ..> Player
+Hangedman ..down-> HiddenWord
+Hangedman ..down-> SecretWord
+Hangedman ..down-> GuessedLetters
+Hangedman ..down-> GuessingLetter
+
+Player -down-> EndGame
+EndGame ..up-> Hangedman
+
+GuessedWord -up-|> EndGame
+ManHanged -up-|> EndGame
+
+Guesser -up-|> Player
+Giver -up-|> Player
+
+Giver o-up-> SecretWord
+Guesser o-up-> GuessingLetter
+
+
+@enduml
