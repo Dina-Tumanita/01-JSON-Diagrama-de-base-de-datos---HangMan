@@ -1,0 +1,66 @@
+{
+  "players": [
+    {
+      "name": "Player 1",
+      "type": "Giver"
+    },
+    {
+      "name": "Player 2",
+      "type": "Guesser"
+    }
+  ],
+  "turn": {
+    "gameFinished": true,
+    "winner": {
+      "name": "Player 1"
+    }
+  },
+  "board": [
+    {
+      "row": 1,
+      "column": 1,
+      "piece": "O"
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "piece": "O"
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "piece": null
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "piece": null
+    },
+    {
+        "row": 2,
+        "column": 2,
+        "piece": null
+      },
+      {
+        "row": 2,
+        "column": 3,
+        "piece": null
+      },
+      {
+        "row": 3,
+        "column": 1,
+        "piece": "X"
+      },
+      {
+        "row": 3,
+        "column": 2,
+        "piece": "X"
+      },
+      {
+        "row": 3,
+        "column": 3,
+        "piece": "X"
+      }
+    ]
+  }
+  
