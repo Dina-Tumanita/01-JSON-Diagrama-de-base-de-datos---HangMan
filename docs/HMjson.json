@@ -15,52 +15,19 @@
       "name": "Player 1"
     }
   },
-  "board": [
+  "Hangedman": [
     {
-      "row": 1,
-      "column": 1,
-      "piece": "O"
+      "HangmanParts": 8
     },
     {
-      "row": 1,
-      "column": 2,
-      "piece": "O"
+      "letter": "d"
     },
     {
-      "row": 1,
-      "column": 3,
-      "piece": null
+      "letter": "o"
     },
     {
-      "row": 2,
-      "column": 1,
-      "piece": null
-    },
-    {
-        "row": 2,
-        "column": 2,
-        "piece": null
-      },
-      {
-        "row": 2,
-        "column": 3,
-        "piece": null
-      },
-      {
-        "row": 3,
-        "column": 1,
-        "piece": "X"
-      },
-      {
-        "row": 3,
-        "column": 2,
-        "piece": "X"
-      },
-      {
-        "row": 3,
-        "column": 3,
-        "piece": "X"
-      }
+      "letter": "g"
+    }
     ]
   }
   
